@@ -1,0 +1,22 @@
+{
+  "name": "puppeteer-self-training",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krittanon-w/puppeteer-self-training.git"
+  },
+  "author": "krittanon-w",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/krittanon-w/puppeteer-self-training/issues"
+  },
+  "homepage": "https://github.com/krittanon-w/puppeteer-self-training#readme",
+  "dependencies": {
+    "puppeteer": "^1.16.0"
+  }
+}
