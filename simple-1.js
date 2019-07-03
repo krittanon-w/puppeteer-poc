@@ -28,6 +28,7 @@ const puppeteer = require('puppeteer');
     height: 1080,
     deviceScaleFactor: 1,
   })
+
   await page.goto('https://google.com')
   await page.waitFor('input[name=q]')
   await page.$eval('input[name=q]', el => el.value = 'running date: ' + new Date().toUTCString())
